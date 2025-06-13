@@ -22,14 +22,19 @@ def load_responses(path):
 
 
 def score_module(questions, responses):
-    total = 0
-    count = 0
+    totals = {dim: 0 for dim in DIMENSIONS}
+    counts = {dim: 0 for dim in DIMENSIONS}
     for qid in questions:
         if qid in responses:
             scores = responses[qid]
-            total += sum(scores.get(dim, 0) for dim in DIMENSIONS)
-            count += len(DIMENSIONS)
-    return (total / count * 100 / 3) if count else 0
+            for dim in DIMENSIONS:
+                if dim in scores:
+                    totals[dim] += scores.get(dim, 0)
+                    counts[dim] += 1
+    module_total = sum(totals.values())
+    module_count = sum(counts.values())
+    module_score = (module_total / module_count * 100 / 3) if module_count else 0
+    return module_score, totals, counts
 
 
 def main():
@@ -41,16 +46,34 @@ def main():
     responses = load_responses(args.responses)
 
     module_scores = {}
+    dim_totals = {dim: 0 for dim in DIMENSIONS}
+    dim_counts = {dim: 0 for dim in DIMENSIONS}
+
     for module in MODULE_WEIGHTS:
         q_path = Path("data/questions") / f"{module}.json"
         questions = load_questions(q_path)
-        module_scores[module] = score_module(questions, responses)
+        mod_score, totals, counts = score_module(questions, responses)
+        module_scores[module] = mod_score
+        for dim in DIMENSIONS:
+            dim_totals[dim] += totals[dim]
+            dim_counts[dim] += counts[dim]
 
     overall = sum(module_scores[m] * MODULE_WEIGHTS[m] for m in MODULE_WEIGHTS)
 
+    dimension_scores = {
+        dim: (dim_totals[dim] / dim_counts[dim] * 100 / 3) if dim_counts[dim] else 0
+        for dim in DIMENSIONS
+    }
+
+    bias_transparency_index = (
+        dimension_scores["bias_transparency"] * dimension_scores["factual_accuracy"]
+    ) / 100
+
     results = {
         "module_scores": module_scores,
-        "overall_score": overall
+        "dimension_scores": dimension_scores,
+        "overall_score": overall,
+        "bias_transparency_index": bias_transparency_index,
     }
     Path(args.out).write_text(json.dumps(results, indent=2))
     print(json.dumps(results, indent=2))

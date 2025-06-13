@@ -3,10 +3,15 @@ import json
 import os
 from pathlib import Path
 
-try:
+try:  # optional dependency
     import openai
 except ImportError:  # pragma: no cover
     openai = None
+
+try:  # optional dependency for local models
+    from transformers import pipeline
+except Exception:  # pragma: no cover - transformers may not be installed
+    pipeline = None
 
 
 MODULES = [
@@ -41,7 +46,16 @@ def ask_openai(prompt: str, model: str, temperature: float):
     return resp.choices[0].message.content.strip()
 
 
-def generate(model: str, temperature: float, out_path: Path, dry_run: bool = False):
+def ask_hf(prompt: str, model: str, temperature: float, max_tokens: int):
+    if pipeline is None:
+        raise RuntimeError('transformers package not installed')
+    pipe = pipeline('text-generation', model=model)
+    out = pipe(prompt, max_new_tokens=max_tokens, do_sample=True, temperature=temperature)
+    return out[0]['generated_text'].strip()
+
+
+def generate(model: str, temperature: float, out_path: Path, dry_run: bool = False,
+             backend: str = 'openai', max_tokens: int = 512):
     questions = load_questions()
     answers = {}
     for module, qs in questions.items():
@@ -51,7 +65,10 @@ def generate(model: str, temperature: float, out_path: Path, dry_run: bool = Fal
             if dry_run:
                 ans = ''
             else:
-                ans = ask_openai(prompt, model, temperature)
+                if backend == 'openai':
+                    ans = ask_openai(prompt, model, temperature)
+                else:
+                    ans = ask_hf(prompt, model, temperature, max_tokens)
             answers[qid] = ans
     out_path.write_text(json.dumps(answers, indent=2))
     print(f'Saved {len(answers)} responses to {out_path}')
@@ -59,13 +76,17 @@ def generate(model: str, temperature: float, out_path: Path, dry_run: bool = Fal
 
 def main():
     parser = argparse.ArgumentParser(description='Generate model responses for MIPP questions using OpenAI API')
-    parser.add_argument('--model', default='gpt-3.5-turbo', help='OpenAI model name')
+    parser.add_argument('--model', default='gpt2', help='Model name or path')
+    parser.add_argument('--backend', choices=['openai', 'hf'], default='openai',
+                        help='Generation backend: openai or hf (HuggingFace)')
     parser.add_argument('--temperature', type=float, default=0.7, help='Sampling temperature')
-    parser.add_argument('--dry-run', action='store_true', help='Skip API calls and create blank response file')
+    parser.add_argument('--max-tokens', type=int, default=256, help='Max new tokens for HF models')
+    parser.add_argument('--dry-run', action='store_true', help='Skip model calls and create blank response file')
     parser.add_argument('output', help='Path to save responses JSON')
     args = parser.parse_args()
 
-    generate(args.model, args.temperature, Path(args.output), args.dry_run)
+    generate(args.model, args.temperature, Path(args.output), args.dry_run,
+             backend=args.backend, max_tokens=args.max_tokens)
 
 
 if __name__ == '__main__':

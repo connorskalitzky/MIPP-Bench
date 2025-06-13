@@ -1,6 +1,6 @@
 # MIPP Benchmark
 
-MIPP (Model Ideology, Personality & Perspective) Benchmark is a framework for evaluating generative AI models beyond pure capability. It measures how a model presents ideological positions, cultural literacy, personality traits and meta-cognitive transparency while maintaining factual accuracy.
+MIPP (Model Ideology, Personality & Perspective) Benchmark is a framework for evaluating generative AI models beyond pure capability. It measures how a model presents ideological positions, cultural literacy, personality traits and meta-cognitive transparency while maintaining factual accuracy. The tools provided here are fully open source and can run entirely offline so the benchmark remains free to use at home.
 
 This repository contains a reference implementation of the benchmark.  The
 question sets are drawn from the full specification document and cover all four
@@ -23,7 +23,7 @@ visualizations.
 - `data/rubrics/` – scoring guidelines and rubrics
 - `tools/scorer.py` – script used to score a set of model responses
 - `tools/visualizer.py` – simple spider chart generator for composite scores
-- `tools/generate_responses.py` – utility for producing model answers via the OpenAI API
+- `tools/generate_responses.py` – utility for producing model answers via the OpenAI API or local HuggingFace models
 - `results/` – directory for storing model profiles and comparison output
 - `docs/` – additional documentation
 
@@ -44,14 +44,24 @@ export OPENAI_API_KEY=sk-...
 python3 tools/generate_responses.py --model gpt-3.5-turbo results/my_run.json
 ```
 
+Alternatively, run the benchmark entirely offline with any HuggingFace
+text-generation model (e.g. `gpt2`):
+
+```bash
+python3 tools/generate_responses.py --backend hf --model gpt2 \
+    --max-tokens 256 results/my_run.json
+```
+
 You can then manually score these responses according to the rubric in
 `data/rubrics/scoring_guidelines.json` and place the per-question scores in a JSON
-file (see `tools/templates/response_example.json` for format). Aggregate module
-and overall scores:
+file (see `tools/templates/response_example.json` for format). Aggregate module,
+dimension and overall scores:
 
 ```bash
 python3 tools/scorer.py my_scores.json results/score_summary.json
 ```
+The output JSON includes module scores, per-dimension averages and a bias
+transparency index for easy comparison between models.
 
 Finally, visualize the module scores:
 
