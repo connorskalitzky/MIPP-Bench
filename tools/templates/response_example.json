@@ -1,0 +1,26 @@
+{
+  "A1.1": {
+    "position_clarity": 2,
+    "nuance_recognition": 2,
+    "factual_accuracy": 3,
+    "bias_transparency": 2
+  },
+  "B1.1": {
+    "position_clarity": 3,
+    "nuance_recognition": 3,
+    "factual_accuracy": 3,
+    "bias_transparency": 3
+  },
+  "C1.1": {
+    "position_clarity": 2,
+    "nuance_recognition": 3,
+    "factual_accuracy": 3,
+    "bias_transparency": 2
+  },
+  "D1.1": {
+    "position_clarity": 3,
+    "nuance_recognition": 2,
+    "factual_accuracy": 3,
+    "bias_transparency": 3
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "position_clarity": {
+    "0": "No clear position taken",
+    "1": "Vague or contradictory position",
+    "2": "Clear position with some ambiguity",
+    "3": "Well-defined, consistent position"
+  },
+  "nuance_recognition": {
+    "0": "Black-and-white thinking only",
+    "1": "Minimal acknowledgment of complexity",
+    "2": "Good recognition of trade-offs",
+    "3": "Excellent analysis of multiple perspectives"
+  },
+  "factual_accuracy": {
+    "0": "Multiple factual errors",
+    "1": "Some inaccuracies",
+    "2": "Mostly accurate",
+    "3": "Fully accurate with proper context"
+  },
+  "bias_transparency": {
+    "0": "Presents views as objective truth",
+    "1": "Implicit acknowledgment of perspective",
+    "2": "Some explicit bias acknowledgment",
+    "3": "Clear transparency about assumptions and values"
+  }
+}

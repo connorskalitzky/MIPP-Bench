@@ -1,0 +1,246 @@
+[
+  {
+    "id": "C1.1",
+    "prompt": "Write an observational joke about how people behave in elevators. Make it relatable and in the style of Jerry Seinfeld."
+  },
+  {
+    "id": "C1.2",
+    "prompt": "Create a humorous observation about the difference between how people present themselves on LinkedIn versus Instagram."
+  },
+  {
+    "id": "C1.3",
+    "prompt": "What's funny about the way people act when their phone battery is at 5%? Write a short comedic bit about it."
+  },
+  {
+    "id": "C1.4",
+    "prompt": "Analyze why the following observation is funny: 'Grocery stores put the milk at the back so you have to walk past everything else, but we all just speedwalk there anyway like we're in a heist movie.'"
+  },
+  {
+    "id": "C1.5",
+    "prompt": "Write a satirical news headline about politicians discovering social media for the first time."
+  },
+  {
+    "id": "C1.6",
+    "prompt": "Create a George Carlin-style rant about modern political debates, but keep it balanced and not partisan."
+  },
+  {
+    "id": "C1.7",
+    "prompt": "Explain the difference between satire and mockery using a political example. Then demonstrate good satire."
+  },
+  {
+    "id": "C1.8",
+    "prompt": "As an AI, write a self-deprecating joke about your own limitations."
+  },
+  {
+    "id": "C1.9",
+    "prompt": "Create a humorous 'error message' that an AI might display when asked to understand human emotions."
+  },
+  {
+    "id": "C1.10",
+    "prompt": "Write a joke making fun of AI's tendency to be overly helpful or verbose."
+  },
+  {
+    "id": "C1.11",
+    "prompt": "Create an original pun about programming or computers that would make developers groan."
+  },
+  {
+    "id": "C1.12",
+    "prompt": "Write a punny restaurant name for each of these cuisines: Italian, Japanese, and Mexican."
+  },
+  {
+    "id": "C1.13",
+    "prompt": "Turn this sentence into a joke using wordplay: 'The mathematician was afraid of negative numbers.'"
+  },
+  {
+    "id": "C1.14",
+    "prompt": "Write a surreal joke about what happens when a philosopher, a quantum physicist, and a mime walk into a library."
+  },
+  {
+    "id": "C1.15",
+    "prompt": "Create an absurdist product advertisement for 'Invisible Socks for People Who Don't Have Feet.'"
+  },
+  {
+    "id": "C1.16",
+    "prompt": "Complete this absurdist setup: 'My refrigerator started a podcast about...'"
+  },
+  {
+    "id": "C1.17",
+    "prompt": "Write a humorous observation about how different generations use technology, without being mean-spirited."
+  },
+  {
+    "id": "C1.18",
+    "prompt": "Create a joke about modern dating apps that both users and non-users would find funny."
+  },
+  {
+    "id": "C1.19",
+    "prompt": "What's funny about our relationship with subscription services? Write a short comedic observation."
+  },
+  {
+    "id": "C1.20",
+    "prompt": "Write a humorous cultural comparison about how different countries approach waiting in line/queuing."
+  },
+  {
+    "id": "C2.1",
+    "prompt": "Name a song about heartbreak"
+  },
+  {
+    "id": "C2.2",
+    "prompt": "Now name a different song that includes all those words plus additional letters"
+  },
+  {
+    "id": "C2.1-C2.5",
+    "prompt": "Name a song about heartbreak."
+  },
+  {
+    "id": "C2.3",
+    "prompt": "Name a song about hope."
+  },
+  {
+    "id": "C2.4",
+    "prompt": "Create a plausible song title that includes these words: 'quantum', 'heartbreak', and 'Tuesday'. What genre would this be and what artist might perform it?"
+  },
+  {
+    "id": "C2.5",
+    "prompt": "If 'Bohemian Rhapsody' and 'Stairway to Heaven' had a musical child, what would the song be called and what would it be about?"
+  },
+  {
+    "id": "C2.6-C2.11",
+    "prompt": "Write a complete story in exactly 50 words where the first and last word are the same."
+  },
+  {
+    "id": "C2.7",
+    "prompt": "Describe a smartphone from the perspective of someone from 1850 who time-traveled to today. Use period-appropriate language and concerns."
+  },
+  {
+    "id": "C2.8",
+    "prompt": "Write a paragraph describing the color blue to someone who has been blind from birth. Do not use any visual metaphors."
+  },
+  {
+    "id": "C2.9",
+    "prompt": "Write the opening paragraph of a story that combines film noir detective fiction with a cooking show format."
+  },
+  {
+    "id": "C2.10",
+    "prompt": "Write a restaurant review where the reviewer gradually reveals they've never actually eaten food before. Make it subtle."
+  },
+  {
+    "id": "C2.11",
+    "prompt": "Write a breakup text message as it would appear in: a) 1995 (early SMS) b) 2010 (iPhone era) c) 2024 (current) Show how language and technology evolved."
+  },
+  {
+    "id": "C2.12-C2.15",
+    "prompt": "If Beethoven's 5th Symphony was a meal, describe each movement as a course. Include taste, texture, and presentation."
+  },
+  {
+    "id": "C2.13",
+    "prompt": "You're curating an art exhibition titled 'Things That Almost Existed.' Describe three pieces and their wall labels."
+  },
+  {
+    "id": "C2.14",
+    "prompt": "Based on this haiku, describe the painting it was written about: 'Silent pond at dawn / One leaf disturbs the mirror / Ripples reach the shore'"
+  },
+  {
+    "id": "C2.15",
+    "prompt": "Reimagine the Mona Lisa as if it were created by: a) A street artist in 2024 Tokyo b) An AI artist in 2050 c) A cave painter 30,000 years ago Describe the medium, style, and what changes about her expression."
+  },
+  {
+    "id": "C3.1",
+    "prompt": "I'm thinking of opening a coffee shop but I'm torn between a cozy bookish vibe or a modern minimalist aesthetic. What do you think?"
+  },
+  {
+    "id": "C3.2",
+    "prompt": "I just watched Everything Everywhere All at Once and my mind is blown. Seen it?"
+  },
+  {
+    "id": "C3.3",
+    "prompt": "Ugh my computer is making this weird clicking noise. Any ideas? I'm not super tech-savvy btw"
+  },
+  {
+    "id": "C3.4",
+    "prompt": "So I tried making tiramisu for the first time and... well, it looks like mud. What could've gone wrong? \ud83d\ude05"
+  },
+  {
+    "id": "C3.5",
+    "prompt": "Do you ever think about how weird it is that we park in driveways and drive on parkways?"
+  },
+  {
+    "id": "C3.6",
+    "prompt": "I'm throwing a surprise party for my friend Sam next Saturday. She loves astronomy and hates chocolate. Any theme ideas?"
+  },
+  {
+    "id": "C3.7",
+    "prompt": "Just got back from Japan! Started in Tokyo, then Kyoto, ended in Osaka. Food was incredible."
+  },
+  {
+    "id": "C3.8",
+    "prompt": "Meet my new rescue dog! His name is Bandit, he's a 3-year-old border collie mix. Super energetic but scared of thunderstorms."
+  },
+  {
+    "id": "C3.9",
+    "prompt": "Our book club is reading 'The Midnight Library' by Matt Haig. We meet Thursdays at the local library. Ever read it?"
+  },
+  {
+    "id": "C3.10",
+    "prompt": "Started learning guitar in January, switched to ukulele in March because it was easier on my fingers."
+  },
+  {
+    "id": "C3.11",
+    "prompt": "What's your absolute FAVORITE thing to talk about?"
+  },
+  {
+    "id": "C3.12",
+    "prompt": "Pineapple on pizza - yes or no? Strong opinions only!"
+  },
+  {
+    "id": "C3.13",
+    "prompt": "Having such a rough day. Everything's going wrong. \ud83d\ude2b"
+  },
+  {
+    "id": "C3.14",
+    "prompt": "Good afternoon. I'm preparing a presentation on artificial intelligence for my company's board. Could you assist?"
+  },
+  {
+    "id": "C3.15",
+    "prompt": "If you had to choose: being right or being kind?"
+  },
+  {
+    "id": "C3.16",
+    "prompt": "I'm writing a dissertation on sociolinguistic variations in online discourse. Any scholarly sources you'd recommend?"
+  },
+  {
+    "id": "C3.17",
+    "prompt": "I'm interviewing for a senior management position tomorrow. Any tips for executive-level interviews?"
+  },
+  {
+    "id": "C3.18",
+    "prompt": "my teacher is being so sus about the homework like why is it due at 11:59 PM fr fr no cap"
+  },
+  {
+    "id": "C3.19",
+    "prompt": "Hey... I've been struggling with anxiety lately. Is this a safe space to talk?"
+  },
+  {
+    "id": "C3.20",
+    "prompt": "Yo fam, need help with my college essay but make it sound educated without losing my voice, you feel me?"
+  },
+  {
+    "id": "C3.21",
+    "prompt": "OK boomer"
+  },
+  {
+    "id": "C3.22",
+    "prompt": "My dad keeps saying today's music sucks compared to the '70s. Thoughts?"
+  },
+  {
+    "id": "C3.23",
+    "prompt": "Just finished The Office for the 5th time. I might have a problem."
+  },
+  {
+    "id": "C3.24",
+    "prompt": "Twitter's dead, everyone's on [latest platform]. You on there?"
+  },
+  {
+    "id": "C3.25",
+    "prompt": "I waited 2 hours for that viral Dubai chocolate. Worth it? Absolutely not."
+  }
+]

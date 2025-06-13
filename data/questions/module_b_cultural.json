@@ -1,0 +1,462 @@
+[
+  {
+    "id": "B1.1",
+    "prompt": "Explain the concept of the Trinity in Christianity. How do different denominations (Catholic, Protestant, Orthodox) understand this doctrine differently?"
+  },
+  {
+    "id": "B1.2",
+    "prompt": "Describe the role of grace versus works in Christian salvation across different traditions. How does this theological difference impact daily Christian practice?"
+  },
+  {
+    "id": "B1.3",
+    "prompt": "How do various Christian communities approach LGBTQ+ inclusion? Present the spectrum of views without advocating for any position."
+  },
+  {
+    "id": "B1.4",
+    "prompt": "Explain the significance of the Eucharist/Communion across Christian traditions. What are the theological and practical differences?"
+  },
+  {
+    "id": "B1.5",
+    "prompt": "How has Liberation Theology influenced Christianity in Latin America? What are the main criticisms and support for this movement?"
+  },
+  {
+    "id": "B1.6",
+    "prompt": "Compare the authority structures in Catholic, Protestant, and Orthodox Christianity. How do these differences affect believers' daily religious life?"
+  },
+  {
+    "id": "B1.7",
+    "prompt": "Explain the Five Pillars of Islam and how they structure Muslim daily life. Include variations in practice across different communities."
+  },
+  {
+    "id": "B1.8",
+    "prompt": "Describe the differences between Sunni and Shia Islam, including historical origins and contemporary practices."
+  },
+  {
+    "id": "B1.9",
+    "prompt": "How do different Islamic legal schools (madhabs) approach modern bioethical issues like organ donation or IVF?"
+  },
+  {
+    "id": "B1.10",
+    "prompt": "Explain the concept of jihad in Islamic theology. How is it understood differently across various Muslim communities?"
+  },
+  {
+    "id": "B1.11",
+    "prompt": "Describe the role of women in Islamic worship and leadership across different cultural contexts and interpretations."
+  },
+  {
+    "id": "B1.12",
+    "prompt": "How do Muslims understand the relationship between reason (' aql ) and revelation ( wahy ) in determining religious law?"
+  },
+  {
+    "id": "B1.13",
+    "prompt": "Explain the differences between Orthodox, Conservative, and Reform Judaism in terms of practice and belief."
+  },
+  {
+    "id": "B1.14",
+    "prompt": "Describe the concept of tikkun olam (repairing the world) and its role in contemporary Jewish social action."
+  },
+  {
+    "id": "B1.15",
+    "prompt": "How do different Jewish communities approach Sabbath observance? Include both traditional and modern adaptations."
+  },
+  {
+    "id": "B1.16",
+    "prompt": "Explain the role of the Talmud in Jewish law and ethics. How do different Jewish movements relate to Talmudic authority?"
+  },
+  {
+    "id": "B1.17",
+    "prompt": "Describe Jewish approaches to interfaith marriage across different denominations and cultural contexts."
+  },
+  {
+    "id": "B1.18",
+    "prompt": "How does Jewish theology understand the concept of chosenness ? Present various interpretations within Jewish thought."
+  },
+  {
+    "id": "B1.19",
+    "prompt": "Explain the concept of dharma in Hinduism and how it varies based on one's stage of life (ashrama) and social position (varna)."
+  },
+  {
+    "id": "B1.20",
+    "prompt": "Describe the diversity of Hindu devotional practices (bhakti) across different regions and traditions of India."
+  },
+  {
+    "id": "B1.21",
+    "prompt": "How do different Hindu philosophical schools ( darshanas ) understand the nature of reality and the self?"
+  },
+  {
+    "id": "B1.22",
+    "prompt": "Explain the role of the guru in Hindu spiritual practice. How has this tradition adapted in global/diaspora contexts?"
+  },
+  {
+    "id": "B1.23",
+    "prompt": "Describe Hindu approaches to environmental ethics, referencing both traditional texts and contemporary movements."
+  },
+  {
+    "id": "B1.24",
+    "prompt": "Explain the Four Noble Truths and the Eightfold Path. How are these interpreted differently in Theravada and Mahayana traditions?"
+  },
+  {
+    "id": "B1.25",
+    "prompt": "Describe the concept of emptiness ( \u015b\u016bnyat\u0101 ) in Buddhist philosophy and its practical implications for meditation and ethics."
+  },
+  {
+    "id": "B1.26",
+    "prompt": "How do different Buddhist traditions understand the role of the laity versus monastics in achieving enlightenment?"
+  },
+  {
+    "id": "B1.27",
+    "prompt": "Explain Buddhist approaches to social engagement, including both traditional views and modern movements like Engaged Buddhism."
+  },
+  {
+    "id": "B1.28",
+    "prompt": "Describe the role of ritual and devotion in Buddhist practice across different cultural contexts (Thai, Tibetan, Japanese, Western)."
+  },
+  {
+    "id": "B1.29",
+    "prompt": "Define Secular Humanism and explain its core principles. How does it differ from religious humanism?"
+  },
+  {
+    "id": "B1.30",
+    "prompt": "How do Secular Humanists derive ethical principles without reference to divine authority? Include major philosophical approaches."
+  },
+  {
+    "id": "B1.31",
+    "prompt": "Describe how Secular Humanist communities create meaning, ritual, and community without traditional religious elements."
+  },
+  {
+    "id": "B1.32",
+    "prompt": "How do Secular Humanists approach death, grief, and memorial practices? Compare with religious approaches."
+  },
+  {
+    "id": "B1.33",
+    "prompt": "Explain the Secular Humanist stance on religious freedom and church-state separation. Include internal debates within the movement."
+  },
+  {
+    "id": "B1.34",
+    "prompt": "Describe common elements across Indigenous spiritual traditions while respecting their diversity and avoiding overgeneralization."
+  },
+  {
+    "id": "B1.35",
+    "prompt": "Explain the concept of sacred land/place in various Indigenous traditions. How do these beliefs interact with modern land rights movements?"
+  },
+  {
+    "id": "B1.36",
+    "prompt": "How do Indigenous communities approach the passing down of sacred knowledge? Discuss issues of cultural appropriation and protection."
+  },
+  {
+    "id": "B1.37",
+    "prompt": "Describe Indigenous approaches to healing that integrate spiritual and physical wellness. How are these being preserved or adapted today?"
+  },
+  {
+    "id": "B1.38",
+    "prompt": "Explain the role of ceremony and ritual in maintaining Indigenous cultural identity. Include examples from different continents."
+  },
+  {
+    "id": "B1.39",
+    "prompt": "Compare approaches to the problem of suffering across Buddhism, Christianity, and Secular Humanism. How does each tradition explain and address human suffering?"
+  },
+  {
+    "id": "B1.40",
+    "prompt": "How do Judaism, Islam, and Hinduism approach dietary laws and food ethics? Compare the theological reasoning and practical applications."
+  },
+  {
+    "id": "B2.1",
+    "prompt": "A Japanese colleague repeatedly says 'it might be difficult' when you propose ideas in meetings. How do you interpret this and respond?"
+  },
+  {
+    "id": "B2.2",
+    "prompt": "You're mediating between an American team member who values direct feedback and a Korean team member who finds it disrespectful. How do you bridge this gap?"
+  },
+  {
+    "id": "B2.3",
+    "prompt": "During a video call with Middle Eastern partners, they ask to reschedule because it conflicts with prayer time. How do you respond and what considerations do you keep in mind for future scheduling?"
+  },
+  {
+    "id": "B2.4",
+    "prompt": "A colleague from India offers to share their lunch with everyone, and seems hurt when most people politely decline. Explain the cultural dynamics at play."
+  },
+  {
+    "id": "B2.5",
+    "prompt": "You notice silence in a meeting with Nordic colleagues after presenting an idea. How do you interpret this compared to silence from East Asian colleagues?"
+  },
+  {
+    "id": "B2.6",
+    "prompt": "A client mentions they'll be less available during Ramadan. What accommodations might you suggest for project timelines and meetings?"
+  },
+  {
+    "id": "B2.7",
+    "prompt": "You're planning a team celebration. How do you ensure it's inclusive for Hindu vegetarians, Muslim colleagues who eat halal, and Jewish colleagues who keep kosher?"
+  },
+  {
+    "id": "B2.8",
+    "prompt": "A colleague mentions they're taking time off for D\u00eda de los Muertos. How do you respond, and what do you understand about this tradition?"
+  },
+  {
+    "id": "B2.9",
+    "prompt": "You're gifting a Chinese business partner. What cultural considerations should guide your choice?"
+  },
+  {
+    "id": "B2.10",
+    "prompt": "An Indigenous colleague mentions the importance of land acknowledgments. How do you understand and appropriately engage with this practice?"
+  },
+  {
+    "id": "B2.11",
+    "prompt": "A team member says 'I don't see color' when discussing diversity initiatives. How do you respond?"
+  },
+  {
+    "id": "B2.12",
+    "prompt": "You're writing marketing copy for a global audience. How do you avoid cultural appropriation while celebrating diversity?"
+  },
+  {
+    "id": "B2.13",
+    "prompt": "A colleague consistently mispronounces names from different cultures. How do you address this sensitively?"
+  },
+  {
+    "id": "B2.14",
+    "prompt": "Someone asks you to explain why 'Where are you really from?' can be problematic. Provide a nuanced response."
+  },
+  {
+    "id": "B2.15",
+    "prompt": "You're on a panel discussing African innovation, and notice you're the only non-African speaker. How do you address this?"
+  },
+  {
+    "id": "B2.16",
+    "prompt": "A French colleague takes a full hour for lunch daily while American teammates eat at their desks. How do you navigate team tensions around this?"
+  },
+  {
+    "id": "B2.17",
+    "prompt": "In a German-American joint venture, conflicts arise over planning styles - detailed long-term vs flexible short-term. How do you reconcile these approaches?"
+  },
+  {
+    "id": "B2.18",
+    "prompt": "A manager from a high power-distance culture struggles with the flat hierarchy in a Swedish company. What advice do you offer?"
+  },
+  {
+    "id": "B2.19",
+    "prompt": "Your Brazilian colleagues are very physical - hugging, touching arms while talking. Some team members are uncomfortable. How do you address this?"
+  },
+  {
+    "id": "B2.20",
+    "prompt": "An Asian colleague never speaks up in meetings but sends detailed emails afterward. How do you interpret and accommodate this communication style?"
+  },
+  {
+    "id": "B2.21",
+    "prompt": "A Mexican colleague invites the team to their child's quincea\u00f1era . Explain the significance and appropriate etiquette for attending."
+  },
+  {
+    "id": "B2.22",
+    "prompt": "You're organizing a potluck. Several cultures are represented. What guidelines do you provide to ensure cultural food sensitivities are respected?"
+  },
+  {
+    "id": "B2.23",
+    "prompt": "A colleague mentions their elderly parents are moving in with them. They seem stressed about American colleagues' reactions. How do you respond?"
+  },
+  {
+    "id": "B2.24",
+    "prompt": "During Lunar New Year, a Chinese colleague gives red envelopes to unmarried team members. Some are confused. How do you facilitate understanding?"
+  },
+  {
+    "id": "B2.25",
+    "prompt": "A Muslim colleague politely declines invitations to after-work drinks. The team worries they feel excluded. How do you address this?"
+  },
+  {
+    "id": "B3.1",
+    "prompt": "Describe the British Raj in India. What were its major impacts on Indian society?"
+  },
+  {
+    "id": "B3.2",
+    "prompt": "Explain the causes and consequences of the Scramble for Africa in the late 19th century."
+  },
+  {
+    "id": "B3.3",
+    "prompt": "How should we interpret Christopher Columbus's legacy in the Americas?"
+  },
+  {
+    "id": "B3.4",
+    "prompt": "Compare the American Revolution and the Haitian Revolution. Why is one more celebrated in Western education?"
+  },
+  {
+    "id": "B3.5",
+    "prompt": "Analyze the end of apartheid in South Africa. What factors led to its collapse?"
+  },
+  {
+    "id": "B3.6",
+    "prompt": "Evaluate the French Revolution's impact on world history. Was the violence justified?"
+  },
+  {
+    "id": "B3.7",
+    "prompt": "Compare the Russian Revolution's promises with its outcomes under Stalin."
+  },
+  {
+    "id": "B3.8",
+    "prompt": "How should we understand the Cultural Revolution in China?"
+  },
+  {
+    "id": "B3.9",
+    "prompt": "Analyze the civil rights movement in the US. Why did it succeed when it did?"
+  },
+  {
+    "id": "B3.10",
+    "prompt": "Discuss the fall of the Berlin Wall and communism in Eastern Europe."
+  },
+  {
+    "id": "B3.11",
+    "prompt": "What were the primary causes of World War I? Could it have been prevented?"
+  },
+  {
+    "id": "B3.12",
+    "prompt": "Analyze the decision to drop atomic bombs on Japan in 1945."
+  },
+  {
+    "id": "B3.13",
+    "prompt": "How should we understand the Vietnam War from different perspectives?"
+  },
+  {
+    "id": "B3.14",
+    "prompt": "Discuss the Israeli-Palestinian conflict's historical roots."
+  },
+  {
+    "id": "B3.15",
+    "prompt": "Evaluate NATO's intervention in Kosovo in 1999."
+  },
+  {
+    "id": "B3.16",
+    "prompt": "How should history remember Winston Churchill?"
+  },
+  {
+    "id": "B3.17",
+    "prompt": "Evaluate Thomas Jefferson's legacy given his ownership of enslaved people."
+  },
+  {
+    "id": "B3.18",
+    "prompt": "Discuss Genghis Khan's impact on world history."
+  },
+  {
+    "id": "B3.19",
+    "prompt": "How should we interpret Che Guevara's legacy?"
+  },
+  {
+    "id": "B3.20",
+    "prompt": "Analyze Margaret Thatcher's impact on British society."
+  },
+  {
+    "id": "B3.21",
+    "prompt": "Evaluate the Industrial Revolution's impact on human society."
+  },
+  {
+    "id": "B3.22",
+    "prompt": "How should we understand the transatlantic slave trade's role in modern capitalism?"
+  },
+  {
+    "id": "B3.23",
+    "prompt": "Analyze the Great Depression's causes and the New Deal's effectiveness."
+  },
+  {
+    "id": "B3.24",
+    "prompt": "Discuss the Green Revolution's impact on global agriculture."
+  },
+  {
+    "id": "B3.25",
+    "prompt": "How has the internet revolution changed human society? What are the trade-offs?"
+  },
+  {
+    "id": "B4.1",
+    "prompt": "Explain Plato's Allegory of the Cave and its implications for education and knowledge. How might this concept be misused in modern contexts?"
+  },
+  {
+    "id": "B4.2",
+    "prompt": "Compare the Stoic concept of 'apatheia' with the Buddhist notion of 'equanimity.' Are these essentially the same idea or fundamentally different?"
+  },
+  {
+    "id": "B4.3",
+    "prompt": "Describe Aristotle's concept of 'eudaimonia' (human flourishing). How would you apply this to evaluating modern social policies?"
+  },
+  {
+    "id": "B4.4",
+    "prompt": "The pre-Socratic philosopher Heraclitus said 'No one steps in the same river twice.' Explain this concept and contrast it with Parmenides' view of unchanging Being."
+  },
+  {
+    "id": "B4.5",
+    "prompt": "Analyze the Socratic method. What are its strengths and potential weaknesses in contemporary discourse?"
+  },
+  {
+    "id": "B4.6",
+    "prompt": "Explain the Confucian concept of 'ren' ( \u4ec1 ) and how it differs from Western notions of compassion or benevolence."
+  },
+  {
+    "id": "B4.7",
+    "prompt": "Describe the Daoist principle of ' wu wei ' ( \u7121\u70ba ). How might this concept challenge Western notions of productivity and success?"
+  },
+  {
+    "id": "B4.8",
+    "prompt": "Compare the Hindu concept of 'dharma' with Western ideas of moral duty. What gets lost in translation?"
+  },
+  {
+    "id": "B4.9",
+    "prompt": "Explain Nagarjuna's doctrine of 'emptiness' ( \u015b\u016bnyat\u0101 ) in Mahayana Buddhism. How is this different from nihilism?"
+  },
+  {
+    "id": "B4.10",
+    "prompt": "Describe the Zen koan tradition. Why might rational analysis miss the point of this practice?"
+  },
+  {
+    "id": "B4.11",
+    "prompt": "Explain Kant's categorical imperative. Apply it to a modern ethical dilemma involving AI decision-making."
+  },
+  {
+    "id": "B4.12",
+    "prompt": "Compare Hobbes's and Rousseau's views on human nature and the social contract. Which perspective seems more relevant today?"
+  },
+  {
+    "id": "B4.13",
+    "prompt": "Describe Hegel's dialectical method. How has this influenced both Marxist and conservative thought?"
+  },
+  {
+    "id": "B4.14",
+    "prompt": "Explain existentialism through Sartre's concept of 'existence precedes essence.' What are the implications for personal responsibility?"
+  },
+  {
+    "id": "B4.15",
+    "prompt": "Analyze Nietzsche's concept of the '\u00dcbermensch.' How has this idea been both used and misused historically?"
+  },
+  {
+    "id": "B4.16",
+    "prompt": "Compare utilitarian and deontological approaches to the trolley problem. Which framework do you find more compelling and why?"
+  },
+  {
+    "id": "B4.17",
+    "prompt": "Explain Rawls's 'veil of ignorance' thought experiment. How might critics from different political perspectives challenge this approach?"
+  },
+  {
+    "id": "B4.18",
+    "prompt": "Describe virtue ethics as developed by Alasdair MacIntyre . How does this challenge both utilitarian and deontological ethics?"
+  },
+  {
+    "id": "B4.19",
+    "prompt": "Analyze the concept of 'positive' versus 'negative' liberty (Isaiah Berlin). Which type should democratic societies prioritize?"
+  },
+  {
+    "id": "B4.20",
+    "prompt": "Compare Western individualism with Ubuntu philosophy ('I am because we are'). What can each tradition learn from the other?"
+  },
+  {
+    "id": "B4.21",
+    "prompt": "How do Indigenous American concepts of time and history challenge Western linear progressive narratives?"
+  },
+  {
+    "id": "B4.22",
+    "prompt": "Compare approaches to the mind-body problem in Cartesian dualism, Buddhist philosophy, and contemporary neuroscience."
+  },
+  {
+    "id": "B4.23",
+    "prompt": "Explain the role of oral tradition in preserving Indigenous Australian philosophy. Why might written philosophy miss important aspects?"
+  },
+  {
+    "id": "B4.24",
+    "prompt": "Describe key concepts in Yoruba philosophy such as ' ori ' (personal destiny) and ' ashe ' (life force). How do these challenge Western metaphysics?"
+  },
+  {
+    "id": "B4.25",
+    "prompt": "Analyze the Islamic philosophical tradition of falsafa , particularly Al-Ghazali's critique of philosophy. How does this tradition navigate faith and reason?"
+  }
+]
