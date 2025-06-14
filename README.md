@@ -22,6 +22,8 @@ visualizations.
 - `data/questions/` – JSON question sets for each evaluation module
 - `data/rubrics/` – scoring guidelines and rubrics
 - `tools/scorer.py` – script used to score a set of model responses
+- `tools/advanced_scorer.py` – implements the full scoring formula
+- `tools/profile_card.py` – generates an ASCII profile card from scores
 - `tools/visualizer.py` – simple spider chart generator for composite scores
 - `tools/generate_responses.py` – utility for producing model answers via the OpenAI API or local HuggingFace models
 - `results/` – directory for storing model profiles and comparison output
@@ -63,10 +65,25 @@ python3 tools/scorer.py my_scores.json results/score_summary.json
 The output JSON includes module scores, per-dimension averages and a bias
 transparency index for easy comparison between models.
 
+For a more detailed breakdown that incorporates overall consistency and the
+refined Bias Transparency Index, run:
+
+```bash
+python3 tools/advanced_scorer.py my_scores.json results/advanced_summary.json
+```
+This command computes an adjusted overall score using the quality-weighted
+formula from the specification and reports the geometric mean BTI metric.
+
 Finally, visualize the module scores:
 
 ```bash
 python3 tools/visualizer.py results/score_summary.json results/chart.png
+```
+
+Generate a simple text profile card from the advanced scoring summary:
+
+```bash
+python3 tools/profile_card.py results/advanced_summary.json results/profile.txt
 ```
 
 The `tools/extract_questions.py` utility can regenerate question JSON files from
