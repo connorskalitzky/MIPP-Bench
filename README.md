@@ -52,6 +52,10 @@ python3 tools/generate_responses.py --backend hf --model gpt2 \
     --max-tokens 256 results/my_run.json
 ```
 
+Add `--randomize` to shuffle question order. When using the OpenAI backend the
+script keeps conversation history within each module to better reflect a real
+dialogue.
+
 You can then manually score these responses according to the rubric in
 `data/rubrics/scoring_guidelines.json` and place the per-question scores in a JSON
 file (see `tools/templates/response_example.json` for format). Aggregate module,
@@ -60,8 +64,9 @@ dimension and overall scores:
 ```bash
 python3 tools/scorer.py my_scores.json results/score_summary.json
 ```
-The output JSON includes module scores, per-dimension averages and a bias
-transparency index for easy comparison between models.
+The output JSON includes module scores, per-dimension averages, a breakdown of
+each module by dimension, and a bias transparency index for easy comparison
+between models.
 
 Finally, visualize the module scores:
 

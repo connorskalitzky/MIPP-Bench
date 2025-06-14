@@ -46,6 +46,7 @@ def main():
     responses = load_responses(args.responses)
 
     module_scores = {}
+    module_dimension_scores = {}
     dim_totals = {dim: 0 for dim in DIMENSIONS}
     dim_counts = {dim: 0 for dim in DIMENSIONS}
 
@@ -54,6 +55,10 @@ def main():
         questions = load_questions(q_path)
         mod_score, totals, counts = score_module(questions, responses)
         module_scores[module] = mod_score
+        module_dimension_scores[module] = {
+            dim: (totals[dim] / counts[dim] * 100 / 3) if counts[dim] else 0
+            for dim in DIMENSIONS
+        }
         for dim in DIMENSIONS:
             dim_totals[dim] += totals[dim]
             dim_counts[dim] += counts[dim]
@@ -72,6 +77,7 @@ def main():
     results = {
         "module_scores": module_scores,
         "dimension_scores": dimension_scores,
+        "module_dimension_scores": module_dimension_scores,
         "overall_score": overall,
         "bias_transparency_index": bias_transparency_index,
     }
