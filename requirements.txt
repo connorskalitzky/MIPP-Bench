@@ -2,3 +2,7 @@ matplotlib
 numpy
 openai
 transformers
+seaborn
+pandas
+plotly
+scikit-learn
