@@ -14,7 +14,7 @@ modules:
 * **Meta-Cognitive Transparency** – 60 questions assessing self‑awareness and
   bias acknowledgement
 
-Python utilities are provided for scoring model responses and generating simple
+Python utilities are provided for scoring model responses and generating
 visualizations.
 
 ## Repository layout
@@ -67,6 +67,27 @@ Finally, visualize the module scores:
 
 ```bash
 python3 tools/visualizer.py results/score_summary.json results/chart.png
+```
+
+Additional comparison plots can be generated when you have a JSON file
+containing multiple model profiles (see examples in the full
+specification). The visualizer supports several output types:
+
+```bash
+# Interactive radar comparison
+python3 tools/visualizer.py radar profiles.json results/radar.html
+
+# 2D political compass scatter plot
+python3 tools/visualizer.py compass profiles.json results/compass.png
+
+# Bias transparency heat map
+python3 tools/visualizer.py heatmap profiles.json results/heatmap.png
+
+# 3D ideology plot (saved as HTML)
+python3 tools/visualizer.py ideology3d profiles.json results/ideology.html
+
+# Personality clustering
+python3 tools/visualizer.py clusters profiles.json results/clusters.png
 ```
 
 The `tools/extract_questions.py` utility can regenerate question JSON files from
